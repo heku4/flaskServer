@@ -1,0 +1,4 @@
+In dir with "requirements.txt" : $ pip install -r requirements.txt
+
+
+To see style changes quickly is easy to click on checkbox "Disable cache" in Network tab on developer-mode in Google Chrome (comm-option-I)
