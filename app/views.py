@@ -2,9 +2,9 @@ from app import app
 
 from flask import render_template
 
-@app.route('/')
+@app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template("public/index.html")
 
 
 #@app.route('/upload-image', methods=["GET", "POST"])
@@ -14,4 +14,4 @@ def index():
 
 @app.route('/hello/<name>')
 def hello(name):
-    return render_template('page.html', name=name)
+    return render_template('public/page.html', name=name)
